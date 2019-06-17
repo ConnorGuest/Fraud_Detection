@@ -1,0 +1,38 @@
+---
+title: "Fraud Detection"
+author: "Connor Guest"
+date: "6/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Fraud Detection
+
+What is fraud?  
+  
+* Fraud is an uncommon, well-considered, imperceptibly concealed, time-evolving and often carefully organized crime which appears in many types and forms.  
+* Fraud is very rare, but cost of not detecting fraud can be huge!  
+* Organizations lose 5% of their yearly revenues to fraud
+* Money lost by businesses to fraud > $3.5 trillion each year
+* Credit card companies lose approximately 7 cents per $100 of transactions due to fraud
+* Fraud takes up 5-10% of the claim amounts paid for non-life insurance  
+
+Key characteristics of successful fraud analytics models
+  
+* Statistical accuracy - refers to detection power and correctnees of model when cases flagged as suspicious
+* Interprebility - How well it can be understood. Management needs to be able to understand to allow for the implementation of the model.
+* Regulatory compliance
+* Economical impact 
+* Complement expert based approach
+
+Challenges of fraud detection model
+  
+* Imbalance  
+  * less than <0.5% transactions are fraudulent
+* Operational efficiency
+* Avoid harrassing good customers 
+
+
